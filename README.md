@@ -1,2 +1,2 @@
-<p align="left"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/250px-Python-logo-notext.svg.png" alt="php logo" width="100%"/></p>
+<p align="left"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/250px-Python-logo-notext.svg.png" alt="php logo" width="10%"/></p>
 # Bem vindo(a) ao meu repositório do Curso de Python Completo da Danki Code.
