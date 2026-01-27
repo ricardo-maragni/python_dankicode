@@ -3,7 +3,7 @@ Estruturas de repetição - loops
 
 while
 for
-do while
+do while (não existe de forma nativa no Python, apenas misturando códigos)
 """
 
 # Valor inicial
