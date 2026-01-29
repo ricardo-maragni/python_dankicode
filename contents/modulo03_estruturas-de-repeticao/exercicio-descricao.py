@@ -22,11 +22,7 @@ Solução: Supor que as variáveis maior e menor assumam o valor do primeiro ele
 S = 3/40 + 32 /39 + 33 /38 + 34 /37 + 340/1
 S = 480/2 + 475/22 + 470/23 + 465/24 + 460/25 + (20 primeiros termos)
 S = 1/2 + 3/23 + 7/25 + 15/27 + 31/29 + (15 primeiros termos)
-"""
 
-# 03
-
-"""
 20 termos - significa que você deve fazer a soma dos 20 primeiros termos
 
 exemplo: se o termo 1° é igual a 5 e a regra de soma é termo anterior + 2.
@@ -41,4 +37,3 @@ No caso o vigésimo termo. 20°.
 A dica é você separar a sua divisão em numerador e denominador e ver o quanto que aumenta ou diminui em cada um separadamente.
 As vezes o numerador aumenta de 1 em 1 e o denominador ta aumentando de 3 em 3.
 """
-
