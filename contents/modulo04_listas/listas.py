@@ -23,7 +23,11 @@ print(lista5)
 # Mostra o tipo da variável lista5 (list)
 print(type(lista5))
 
-# Acessa o elemento da posição 1 da lista (índice começa em 0)
-print(lista5[1])
+# Visualizar os elementos em determinadas posições do index. Obs: O index começa em 0
+print(lista5[0]) # Visualiza o primeiro valor da lista
+print(lista5[1]) # Visualiza o segundo valor da lista 
+print(lista5[2]) # Visualiza o terceiro valor da lista 
+print(lista5[-1]) # Visualiza o ÚLTIMO valor da lista 
+
 
 print("-" * 99)
