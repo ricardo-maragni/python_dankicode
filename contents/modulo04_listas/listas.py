@@ -31,7 +31,7 @@ print(lista5[-1]) # Visualiza o ÚLTIMO valor da lista
 
 # Slicing
 
-# Números
+"""Números"""
 
 print(lista5[::])
 print(lista5[1:])
@@ -41,7 +41,7 @@ print(lista5[:4])
 print(lista5[1:4])
 print(lista5[1:6:2])
 
-# Strings
+"""Strings"""
 
 nome5 = "terra"
 
@@ -52,3 +52,14 @@ print(nome5[2:4])
 print(nome5[2:5:2])
 
 print("-" * 99)
+
+# Funções:
+
+"""Quantidade de itens na lista"""
+print(len(lista3))
+
+"""Valor mínimo da lista"""
+print(min(lista3))
+
+"""Valor máximo da lista"""
+print(max(lista3))
