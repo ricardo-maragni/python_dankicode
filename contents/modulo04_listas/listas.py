@@ -93,5 +93,24 @@ print(lista9)
 lista9[1:4] = ["águia", "morcego", "elefante"]
 print(lista9)
 
+# Visualizando o index da lista
+
+lista10 = ["carro", "barco", "avião"]
+print(lista10)
+
+for x in range(len(lista10)):
+    print(x, lista10[x])
+
+# Adicionando um novo item na lista
+"""Obs: Também é possível adicionar um novo item na lista utilizando '.insert' ou '.extend' após a lista """
+
+lista10.append("moto")
+print(lista10)
+
+# Adicionando vários itens de uma vez na lista
+
+lista10.append(["bicicleta", "navio"])
+print(lista10)
+
 # Finaliza o código
 print("-" * 99)
