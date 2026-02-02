@@ -63,5 +63,22 @@ print(min(lista3))
 """Valor máximo da lista"""
 print(max(lista3))
 
+# Converter range ou strings para lista
+
+"""Range"""
+lista7 = list(range(10))
+print(lista7)
+
+"""Strings"""
+lista8 = list("Curso de Python")
+print(lista8)
+
+# Verificar se há algo dentro da lista
+
+if 8 in lista7:
+    print("Este elemento está dentro da lista.")
+else:
+    print("Este elemento não está dentro da lista")
+
 # Finaliza o código
 print("-" * 99)
