@@ -107,10 +107,45 @@ for x in range(len(lista10)):
 lista10.append("moto")
 print(lista10)
 
-# Adicionando vários itens de uma vez na lista
+# Adicionando vários itens de uma vez na lista (append ou extend)
 
-lista10.append(["bicicleta", "navio"])
+lista10.extend(["bicicleta", "navio"])
 print(lista10)
+
+# Removendo um item na lista
+# Obs: Pode ser utilizado '.pop()' ou 'del lista10[_]' para remover o item de acordo com o seu index. Ex: 0, 1, 2, 3.
+
+lista10.remove("navio")
+print(lista10)
+
+# Deletar uma lista
+
+del lista10
+
+# Apagar todos os itens na lista
+
+lista11 = ["produto 1", "produto 2", "produto 3"]
+lista11.clear()
+print(lista11)
+
+# Ordenar itens na lista
+
+# Crescente
+
+"""Strings"""
+carrinho_de_compras = ["pão", "carne", "verduras", "alface"]
+carrinho_de_compras.sort()
+print(carrinho_de_compras)
+
+""""Números"""
+lista12 = [1, 50, 23, 67, 100]
+lista12.sort()
+print(lista12)
+
+# Decrescente
+
+lista12.sort(reverse = True)
+print(lista12)
 
 # Finaliza o código
 print("-" * 99)
