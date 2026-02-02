@@ -1,3 +1,4 @@
+# Inicia o código
 print("-" * 99)
 
 # Lista contendo apenas strings (textos)
@@ -51,8 +52,6 @@ print(nome5[:3])
 print(nome5[2:4])
 print(nome5[2:5:2])
 
-print("-" * 99)
-
 # Funções:
 
 """Quantidade de itens na lista"""
@@ -63,3 +62,6 @@ print(min(lista3))
 
 """Valor máximo da lista"""
 print(max(lista3))
+
+# Finaliza o código
+print("-" * 99)
