@@ -80,5 +80,18 @@ if 8 in lista7:
 else:
     print("Este elemento não está dentro da lista")
 
+# Alterar valores da lista
+
+lista9 = ["gato", "cachorro", "peixe", "cavalo", "tubarão", "girafa"]
+print(lista9)
+
+"""Alterando apenas um valor"""
+lista9[1] = "cavalo"
+print(lista9)
+
+"""Alterando vários valores de uma vez"""
+lista9[1:4] = ["águia", "morcego", "elefante"]
+print(lista9)
+
 # Finaliza o código
 print("-" * 99)
