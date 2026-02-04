@@ -35,6 +35,10 @@ if "idade" in dicionario2:
 
 print(dicionario2.items())
 
+# Copiar dicionário em outro
+
+dicionario3 = dicionario2.copy()
+
 # Modificar itens de um dicionário
 
 print(dicionario2["nome"])
@@ -62,3 +66,7 @@ print(dicionario2)
 
 dicionario2.clear()
 print(dicionario2)
+
+# Cópia do dicionario2
+
+print(dicionario3)
