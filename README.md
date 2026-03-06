@@ -6,12 +6,6 @@ Comandos para atualização: <br>
 
 ```terminal
 git add .
-```
-
-```terminal
 git commit -m "Atualização"
-```
-
-```terminal
 git push -u origin main
 ```
