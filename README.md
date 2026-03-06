@@ -2,7 +2,7 @@
 
 <h1>Bem vindo(a) ao meu repositório do Curso de Python Completo da Danki Code.</h1>
 
-Comandos para atualização: <br>
+Comando para atualização: <br>
 
 ```terminal
 git add .
